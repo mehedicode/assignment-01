@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Google Sans", sans-serif;
+}
+
+nav{
+    padding: 16px 110px;
+}
+
+nav .nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav .menu ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    color: #000000;
+}
+
+.nav .access-btn .btn{
+    background-color: #30B868;
+    color: #ffffff;
+    padding: 12px 16px;
+    border-radius: 4px;
+    border: none;
+    font-weight: 600px;
+}
+
+.hero{
+    padding: 115px 120px 180px 120px;
+    background: url(assets/hero-bg.png) center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero .hero-containt{
+    width: 770px;
+    margin: auto;
+    text-align: center;
+}
+
+.badge{
+    width: 230px;
+    margin: auto;
+}
+.badge-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    border-radius: 50px;
+    padding: 8px 16px;
+    color: #30B868;
+    background-color: #ffffff;
+}
+.badge .dot{
+    width: 10px;
+    height: 10px;
+    background-color: #30B868;
+    border: none;
+    border-radius: 50px;
+    box-shadow: #30B868 0 0 5px 3px;
+}
+
+.headline{
+    font-size: 30px;
+    margin: 16px;
+}
+
+.headl1{
+    color: #ffffff;
+}
+.headl2{
+    color: #30B868;
+}
+
+.htext{
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+.hbtn{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hbtn1{
+    background-color: #30B868;
+    padding: 16px;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 4px;
+    color: #ffffffe5;
+    font-weight: 600px;
+}
+
+.hbtn2{
+    background: transparent;
+    color: #ffffffe5;
+    padding: 16px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 4px;
+    font-weight: 600px;
+}
+
+.feature-section{
+    padding: 110px 110px 0 110px;
+}
+
+.feature-section .container{
+    margin: auto;
+    text-align: center;
+}
+
+.dec-header h2{
+    color: #001931;
+    font-size: 48px;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+
+.dec-header p{
+    color: #627382;
+    line-height: 20px;
+    padding-bottom: 44px;
+}
+.feature-grid{
+display: flex;
+justify-content: space-between;
+gap: 24px;
+padding: 24px;
+}
+
+.feature-card{
+    width: 322px;
+    
+    box-shadow: 1px -1px 20px 1px rgba(0, 0, 0, 0.3) ;
+    border-radius: 10px;
+}
+.d-card{
+    padding: 70px 24px;
+}
+.icone{
+    background-color: #F95555;
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.icone img{
+    width: 27px;
+    height: 29px;
+}
+.d-card h3{
+    color: #001931;
+    font-size: 24px;
+    font-weight: 600px;
+    margin-bottom: 16px;
+}
+
+.d-card p{
+    color: #627382;
+    line-height: 20px;
+}
+
+.solution{
+    padding: 100px;
+}
+
+.sol-container{
+    margin: auto;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sol-writing{
+    padding: 100px 0;
+}
+
+.sol-writing .the-sol{
+    color: #30B868;
+    line-height: 20px;
+    padding-bottom: 16px;
+}
+
+.sol-writing h1{
+    color: #001931;
+    font-size: 48px;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+
+.sol-writing .p{
+    color: #627382;
+    line-height: 20px;
+    padding-bottom: 40px;
+}
+
+.sol-item{
+    display: flex;
+    gap: 6px;
+}
+
+.sol-item .check{
+    width: 20px;
+    height: 20px;
+    color: #ffffff;
+    background-color: #30B868;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sol-item .check i{
+    font-size: 8px;
+    
+}
+
+.sol-item p{
+    color: #001931;
+    line-height: 20px;
+    padding-bottom: 16px;
+}
