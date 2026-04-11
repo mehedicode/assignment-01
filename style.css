@@ -24,7 +24,7 @@ nav .nav{
     color: #000000;
 }
 
-.nav .access-btn .btn{
+.access-btn .btn{
     background-color: #30B868;
     color: #ffffff;
     padding: 12px 16px;
@@ -241,11 +241,40 @@ padding: 24px;
 }
 .sol-item .check i{
     font-size: 8px;
-    
 }
 
 .sol-item p{
     color: #001931;
     line-height: 20px;
     padding-bottom: 15px;
+}
+
+
+.cta{
+   margin: 0 120px 120px 120px; 
+}
+
+.dcta{
+    width: 86%;
+    background-color: #F7F6F2;
+    padding: 80px;
+    margin: auto;
+    text-align: center;
+}
+
+.dcta h2{
+    color: #001931;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.dcta .p1{
+    color: #627382;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+.dcta .p2{
+    color: #627382;
+    line-height: 20px;
+    margin-top: 16px;
 }
