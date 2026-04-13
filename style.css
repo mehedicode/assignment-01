@@ -16,12 +16,19 @@ nav .nav{
     align-items: center;
     justify-content: space-between;
 }
-.nav .menu ul{
+.menu ul{
     list-style-type: none;
     display: flex;
     justify-content: center;
     gap: 32px;
     color: #000000;
+    line-height: 152%;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.li1:hover, .li2:hover, .li3:hover{
+    box-shadow: 0 5px 20px  rgba(0, 200, 100, 0.336);
 }
 
 .access-btn .btn{
@@ -325,4 +332,13 @@ footer{
     color: #fafafad3;
     text-align: center;
     line-height: 24px;
+}
+
+.feature-card, .btn, .hbtn1, .hbtn2 {
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.feature-card:hover, .btn:hover, .hbtn1:hover , .hbtn2:hover{
+  box-shadow: 0 10px 20px  rgba(0, 200, 100, 0.336);
 }
